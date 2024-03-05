@@ -61,8 +61,12 @@ class Bakery:
 bakery_system = Bakery()
 bakery_system.add_customer_details("asish", "bread", 2)
 bakery_system.add_customer_details("raz", "pancake", 4)
+bakery_system.add_customer_details("john", "cupcake", 5)
+bakery_system.add_customer_details("peter", "vanilla_cake", 3)
+
 bakery_system.display_customer_details()
 bakery_system.show_order_details(2)
 bakery_system.update_order(1, "CupCake", 3)
 bakery_system.display_customer_details()
+
 
